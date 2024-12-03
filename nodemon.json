@@ -1,0 +1,13 @@
+{
+    "watch": [
+      ".",
+      "src"
+    ],
+    "ext": "ts,tsx,json",
+    "ignore": [
+      "logs/**/*",
+      "config/**/*",
+      "src/**/*.spec.ts"
+    ],
+    "exec": "nodemon --watch src --exec ts-node server.ts"
+  }
